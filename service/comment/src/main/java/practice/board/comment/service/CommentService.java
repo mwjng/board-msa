@@ -10,7 +10,9 @@ import practice.board.comment.service.request.CommentCreateRequest;
 import practice.board.comment.service.response.CommentPageResponse;
 import practice.board.comment.service.response.CommentResponse;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import static java.util.function.Predicate.not;
 
